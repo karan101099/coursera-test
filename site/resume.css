@@ -20,13 +20,12 @@ h3 {
     display: inline-block;
 }
 
-h1 {
+/* h1 {
     color : burlywood;
     text-align: center;
     background-color: #e2e2e2;
     padding: 5px;
-    /* margin : 0 */
-}
+} */
 
 .main-img{
     border: 4px solid black;
