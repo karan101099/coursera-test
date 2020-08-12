@@ -4,6 +4,8 @@
 /* CSS Variables */
 @import url(partials/_variables.css);
 
+/* Global CSS */
+@import url(partials/_global.css);
 /* Start Navigation */
 
 .header-area .main-menu .navbar .navbar-brand {
@@ -15,10 +17,64 @@
 }
 
 .header-area .main-menu .nav-item .nav-link {
-  font-family: var(--roboto);
+  font: normal 500 15px var(--roboto);
   text-transform: uppercase;
-  font-weight: 500;
   padding: 0rem 1.5rem;
   color: var(--title-colour);
 }
+
+.header-area .main-menu .navbar-nav .active a {
+  background: var(--gradient-colour);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-colour);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+body {
+  color: var(--gradient-colour);
+}
+
 /* End Navigation */
+
+/* Banner Area */
+.site-title{
+  padding-left: 15rem;
+}
+.site-main .site-banner .site-title h3 {
+  padding-top: 15%;
+  font-weight: 500;
+  align-items: center;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 10vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 3rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image > img {
+  padding: 3rem 0;
+  width: 90rem;
+  margin-left: 5rem;
+  max-width: 50%;
+}
+
+/* End Banner Area */

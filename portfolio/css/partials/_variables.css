@@ -8,13 +8,14 @@ body {
 
 /* CSS Variables */
 
-root {
+:root {
   --primary-colour: #4458dc;
   --primary-colour2: #854fee;
   --title-colour: #141313;
   --text-colour: #777777;
   --border-colour: #201f1f17;
-  --gradient-colour: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  --gradient-colour: linear-gradient(90deg, #4458dc 30%, #854fee 70%);
+  /* --gradient-colour: linear-gradient(45deg, red, blue); */
   --shadow-colour: 0px 10px 30px rgba(118, 85, 225, 0.3);
   --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 
