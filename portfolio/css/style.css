@@ -44,6 +44,9 @@ body {
 /* End Navigation */
 
 /* Banner Area */
+.row {
+  display:flex;
+}
 
 .site-main .site-banner .site-title h3 {
   padding-top: 15%;
@@ -54,7 +57,7 @@ body {
 .site-main .site-banner .site-title h3::after {
   content: "";
   height: 2px;
-  width: 10vw;
+  width: 16vw;
   background: black;
   display: inline-block;
   margin-left: 5%;
@@ -81,11 +84,28 @@ body {
   margin-bottom: 50px;
   padding: 5px;
   background: var(--gradient-colour);
+  
 }
 
 .site-title {
   display: flex;
   justify-content: center;
+}
+
+
+@media screen and (max-width: 991px){
+  .site-title {
+    order:2;
+  }
+  
+  .banner-image{
+    order:1;
+    padding-top: 1rem;
+  }
+
+  .banner-image > img{
+    margin-top:30px !important;
+  }
 }
 
 /* End Banner Area */
