@@ -1,8 +1,8 @@
 /* Importing fonts from fonts.css file */
-@import url(fonts.css);
+@import url(../../../resume/portfolio/css/fonts.css);
 
 /* CSS Variables */
-@import url(partials/_variables.css);
+@import url(../../../resume/portfolio/css/partials/_variables.css);
 
 /* Global CSS */
 @import url(../../../resume/portfolio/css/partials/_global.css);
