@@ -1,11 +1,11 @@
 /* Importing fonts from fonts.css file */
-@import url(/css/fonts.css);
+@import url(fonts.css);
 
 /* CSS Variables */
-@import url(/css/partials/_variables.css);
+@import url(partials/_variables.css);
 
 /* Global CSS */
-@import url(/css/partials/_global.css);
+@import url(partials/_global.css);
 /* Start Navigation */
 
 .header-area .main-menu .navbar .navbar-brand {
@@ -44,9 +44,7 @@ body {
 /* End Navigation */
 
 /* Banner Area */
-.site-title{
-  padding-left: 15rem;
-}
+
 .site-main .site-banner .site-title h3 {
   padding-top: 15%;
   font-weight: 500;
@@ -65,16 +63,29 @@ body {
 
 .site-main .site-banner .site-title h1 {
   font-size: 3rem;
+  display: block;
+  width: 100%;
+  margin: auto;
 }
 
 .site-main .site-banner .site-title h4 {
   font-size: 1.5rem;
 }
 .site-main .site-banner .banner-image > img {
-  padding: 3rem 0;
-  width: 90rem;
-  margin-left: 5rem;
+  /* padding: 3rem 0; */
+  /* width: 90rem; */
+  display: block;
   max-width: 50%;
+  margin: auto;
+  box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.205);
+  margin-bottom: 50px;
+  padding: 5px;
+  background: var(--gradient-colour);
+}
+
+.site-title {
+  display: flex;
+  justify-content: center;
 }
 
 /* End Banner Area */
