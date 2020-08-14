@@ -1,11 +1,11 @@
 /* Importing fonts from fonts.css file */
-@import url(../../../resume/portfolio/css/fonts.css);
+@import url(../../portfolio/css/fonts.css);
 
 /* CSS Variables */
-@import url(../../../resume/portfolio/css/partials/_variables.css);
+@import url(../../portfolio/css/partials/_variables.css);
 
 /* Global CSS */
-@import url(../../../resume/portfolio/css/partials/_global.css);
+@import url(../../portfolio/css/partials/_global.css);
 /* Start Navigation */
 
 .header-area .main-menu .navbar .navbar-brand {
