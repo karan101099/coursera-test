@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -12,6 +12,7 @@
     <title>Prabakaran A S</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- bootstrap CSS 4.5.0 -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 
@@ -22,7 +23,9 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
-  <body>
+  <body >
+    <div id="particles-js"></div>
+    <div  class="navbarr"></div>
     <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
@@ -31,7 +34,7 @@
     <![endif]-->
 
     <!-- *******************Start Header Area****************** -->
-    <header class="header-area">
+    <!-- <header class="header-area">
       <div class="main-menu">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -67,7 +70,9 @@
           </div>
         </nav>
       </div>
-    </header>
+
+      
+    </header> -->
     <!-- *******************End Header Area****************** -->
 
     <!-- ----------------------------------------------------------------------- -->
@@ -180,5 +185,14 @@
 
     <!-- bootstrap JS 4.5.0 -->
     <script src="js/bootstrap.min.js" async defer></script>
+
+    <!-- particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script type="text/javascript">
+      particlesJS.load('particles-js', 'particles-cfg.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+     </script>
   </body>
 </html>
