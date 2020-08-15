@@ -193,9 +193,14 @@ main {
   .navbar {
     bottom: 0;
     width: 100vw;
-    height: 5rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
   }
 
+  .nav-link{
+    height: 4rem;
+  }
   .logo {
     display: none;
   }
@@ -222,7 +227,7 @@ main {
   }
 
   .navbar:hover {
-    width: 12rem;
+    width: 13rem;
   }
 
   .navbar:hover .link-text {
@@ -231,8 +236,7 @@ main {
 
   .navbar:hover .logo svg
   {
-    margin-left: 8.5rem;
-    box-shadow: #e4e4e4;
+    margin-left: 9.5rem;
   }
 
   .navbar:hover .logo-text
@@ -362,6 +366,12 @@ main {
 }
 
 /* End Banner Area */
+
+/* footer */
+footer > div{
+  height: 5rem;
+  width:100%;
+}
 
 
 
