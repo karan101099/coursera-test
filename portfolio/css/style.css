@@ -292,6 +292,16 @@ main {
 }
 
 @media screen and (max-width: 991px) {
+
+  .paragraph{
+    padding-right:0px !important;
+  }
+
+  .about-title{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+  }
   .site-title {
     order: 2;
   }
@@ -361,7 +371,13 @@ main {
 }
 
 @media screen and (max-width:991px){
+  .skillset-desc{
+    display: flex;
+    justify-content: space-around;
+
+  }
   .skillset-desc > span {
+    letter-spacing: normal;
     display: inline-block;
     margin-bottom: 1rem;
   }
@@ -396,7 +412,7 @@ footer > div {
   width: 100%;
 }
 
-/* Test Card */
+/* Test cardd */
 
 .maincont{
   display: flex;
@@ -412,3 +428,13 @@ footer > div {
   align-items: center;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width:991px){
+  .site-main .project-area{
+    margin-top: 5rem;
+    padding: 0;
+  }
+}
+
+/* ---------------------------- End Project Area ---------------------------- */
+
